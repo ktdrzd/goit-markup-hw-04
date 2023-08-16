@@ -303,6 +303,11 @@ body {
     justify-content: center;
 }
 
+.team-soc-link:hover,
+.team-soc-link:focus {
+    background-color: #404BBF;
+}
+
 /*Fourth Section*/
 
 .team {
