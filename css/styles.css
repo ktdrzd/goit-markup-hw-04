@@ -578,6 +578,12 @@ body {
     overflow: hidden;
 }
 
+.port-sec-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .port-list-text {
     position: absolute;
     top: 0;
