@@ -23,7 +23,7 @@ img {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 body {
@@ -150,6 +150,12 @@ body {
 
 /*First Section*/
 
+.hero-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero-title {
     color: var(--white, #FFF);
     text-align: center;
@@ -197,7 +203,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 1440px;
 }
 
 .icon-container {
@@ -459,7 +464,7 @@ body {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
-    margin-top: 17.5px;
+    margin-top: 8px;
     max-width: 264px;
 }
 
@@ -568,9 +573,6 @@ body {
 .port-link {
     display: block;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow:  1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .port-link:hover .port-list-text {
@@ -633,7 +635,6 @@ body {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .port-h {
